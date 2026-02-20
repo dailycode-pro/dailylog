@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "daily-logger"
 include(":library")
-include(":testapp")
+include(":sample:jvm")
+include(":sample:android")
