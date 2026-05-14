@@ -4,7 +4,7 @@ A lightweight Kotlin Multiplatform logging library with tag support and platform
 
 ## Features
 
-- **Multiplatform** — Android, iOS, JVM
+- **Multiplatform** — Android, iOS, macOS, JVM
 - **Singleton** — single `DailyLogger` object, ready to use anywhere
 - **Short API** — `d()`, `i()`, `w()`, `e()`
 - **Tag support** — default tag + per-message override
@@ -13,7 +13,7 @@ A lightweight Kotlin Multiplatform logging library with tag support and platform
 - **Log level filtering** — `DEBUG`, `INFO`, `WARNING`, `ERROR`
 - **Platform-native output**:
   - **Android** — `android.util.Log`
-  - **iOS** — `NSLog` with heart emojis: 🤍 DEBUG, 💙 INFO, 💛 WARNING, ❤️ ERROR
+  - **iOS / macOS** — `NSLog` with heart emojis: 🤍 DEBUG, 💙 INFO, 💛 WARNING, ❤️ ERROR
   - **JVM** — `stdout` / `stderr`
 - **Zero dependencies** — pure Kotlin, no third-party libs
 
@@ -168,6 +168,7 @@ ERROR [Network] Connection timeout
 |----------|-------------|
 | Android  | API 24      |
 | iOS      | 15.0        |
+| macOS    | 11.0        |
 | JVM      | 11          |
 
 ## License

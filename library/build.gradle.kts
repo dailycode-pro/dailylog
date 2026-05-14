@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "pro.dailycode"
-version = "0.9.5"
+version = "0.9.6"
 
 kotlin {
     jvm()
@@ -31,6 +31,8 @@ kotlin {
     iosX64()
     iosArm64()
     iosSimulatorArm64()
+    macosX64()
+    macosArm64()
 
     sourceSets {
         commonMain.dependencies {}

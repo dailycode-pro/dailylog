@@ -3,7 +3,7 @@ package pro.dailycode.dailylog
 import platform.Foundation.NSLog
 
 /**
- * iOS log output with heart emojis representing log level severity.
+ * Apple (iOS & macOS) log output with heart emojis representing log level severity.
  *
  * - DEBUG:   🤍 (white heart)
  * - INFO:    💙 (blue heart)
