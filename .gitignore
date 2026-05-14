@@ -12,4 +12,5 @@ xcuserdata
 #So we don't accidentally commit our private keys
 *.gpg
 GPG_KEY_CONTENTS.txt
+GPG_KEY_CONTENTS_base64.txt
 .claude
